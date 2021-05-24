@@ -1,0 +1,115 @@
+
+ html {
+  font-family: 'Akronim';
+  width: max-content;
+  height: max-content;
+  background-color: whitesmoke;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+
+ul {
+  position: fixed;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: blanchedalmond;
+    width: 100vw;
+    font-size: 1.2rem;
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 80vh;
+  }
+
+  
+   
+  body{
+      font-family: 'Akronim';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+ 
+  .main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 80vh;
+   
+
+  }
+  footer{
+    height: 20vh;
+        width: 100vw;
+      margin-top: 300px;
+      bottom:0;
+      font-family: 'Akronim';
+      font-size: 1.2rem;     
+      text-align: center; 
+      background-color: #89d8d3;
+      background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+      color: blanchedalmond;
+    }
+ .right{
+     float: right;
+ }
+
+
+ form {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: ghostwhite;
+  padding:20px ;
+}
+.boxcols{
+display: flex;
+ justify-content: start;
+ flex-direction: column;
+ align-items: center;
+ width: 100vw;
+ height: 100vh;
+}
+.outerbox {
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+
+ display: flex;
+ justify-content: space-around;
+ align-content: center;
+ width: 100vw;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: #111 1px solid;
+  height: 40vh;
+  padding: 5px;
+}

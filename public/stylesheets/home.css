@@ -1,0 +1,115 @@
+        html {
+          background-color:whitesmoke;
+          font-family: 'Akronim';
+          background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+        }
+        header {
+           top:0;
+           position: fixed;
+           width: 100vw;
+            font-family: 'Akronim';
+            font-size: 1.5rem;     
+            height: 15vh;
+            text-align: center; 
+            background-color: #89d8d3;
+            background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+            color: blanchedalmond;
+         }
+         
+        body{
+            font-family: 'Akronim';
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+        body div{
+           width: inherit; 
+           height: inherit;
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           
+        }
+      
+        #input2{
+            width: 50px;
+        }
+        #input1{
+            width: 80px;
+        }
+        #scoreboard{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        #scoreboard .SR{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .SC{
+            width: 100px;
+            border: 2px solid black;        
+
+        }
+        footer{
+          height: 25vh;
+              width: 100vw;
+            margin-top: 100px;
+            bottom:0;
+            display: fixed;
+            font-family: 'Akronim';
+            font-size: 1.5rem;     
+            text-align: center; 
+            background-color: #89d8d3;
+            background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+            color: blanchedalmond;
+          }
+          
+      
+        form {
+            border: 2px solid black;
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            margin-top: 250px;
+            background-color: ghostwhite;
+          }
+          
+        #divform{
+            text-align: center;
+            font-size: 2rem;
+            display: flex;
+            width: 400px; 
+            flex-direction: column;
+            
+
+        }
+          /* Full-width inputs */
+          input[type=text], input[type=password] {
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+          
+          /* Set a style for all buttons */
+          button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100px; 
+          }
+          
+          /* Add a hover effect for buttons */
+          button:hover {
+            opacity: 0.8;
+          }
+          
+        
